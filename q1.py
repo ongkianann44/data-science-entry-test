@@ -6,7 +6,20 @@ def swap(x, y):
     - Return -1 if x and y is not numeric, and
     - print the swapped values if both x and y are numeric.
     """
-    return
+    # Check if x and y are numeric
+    if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):
+        return -1
+    
+    # Swap values
+    
+    x = x + y  # sum of both values
+    y = x - y  # y is now value of x
+    x = x - y  # x is now value of previous y
+
+    print(f"Swapped values: x = {x}, y = {y}")
+
+    # 4. Return the swapped values
+    return x, y
 
 
 # Task 2
