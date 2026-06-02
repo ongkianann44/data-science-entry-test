@@ -5,7 +5,15 @@ def find_and_replace(lst, find_val, replace_val):
     - lst must be a list.
     - Return the modified list.
     """
-    return
+    
+    new_list = []
+    for item in lst:
+        if item == find_val:
+            new_list.append(replace_val)
+        else:
+            new_list.append(item)
+    
+    return new_list
 
 
 # Task 2
