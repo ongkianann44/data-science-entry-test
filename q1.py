@@ -18,7 +18,7 @@ def swap(x, y):
 
     print(f"Swapped values: x = {x}, y = {y}")
 
-    # 4. Return the swapped values
+    # Return the swapped values
     return x, y
 
 
