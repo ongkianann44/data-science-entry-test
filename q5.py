@@ -5,10 +5,21 @@ def check_divisibility(num, divisor):
     - Both num and divisor must be numeric.
     - Return True if num is divisible by divisor, False otherwise.
     """
-    return
+    # Check both num and divisor are numeric
+    if not isinstance(num, (int, float)):
+        raise TypeError("The 'num' argument must be a numeric type (int or float).")
+    if not isinstance(divisor, (int, float)):
+        raise TypeError("The 'divisor' argument must be a numeric type (int or float).")
 
+    # 2. Handle division by zero
+    if divisor == 0:
+        raise ValueError("Cannot check divisibility by zero.")
 
-# Task 2
-# Invoke the function "check_divisibility" using the following scenarios:
-# - 10, 2
-# - 7, 3
+    else:
+        result = num / divisor
+
+    return float(result).is_integer()
+
+#print(check_divisibility(10,2))
+#print(check_divisibility(10,0))
+print(check_divisibility(7,3))
