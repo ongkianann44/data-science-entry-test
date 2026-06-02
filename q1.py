@@ -11,15 +11,16 @@ def swap(x, y):
         return -1
     
     # Swap values
-    
+    myvar1 = x
+    myvar2 = y
     x = x + y  # sum of both values
     y = x - y  # y is now value of x
     x = x - y  # x is now value of previous y
 
-    print(f"Swapped values: x = {x}, y = {y}")
+    print(f"Swapped values: x = {myvar2}, y = {myvar1}")
 
     # Return the swapped values
-    return x, y
+    return myvar2, myvar1
 
 
 # Task 2
