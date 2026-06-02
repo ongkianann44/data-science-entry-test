@@ -30,17 +30,32 @@ Constraints: Keep the summary concise and free of technical jargon.
 # Read both prompts above carefully, then answer the questions below as comments.
 
 # Q8a: Which prompt do you think will get a better response from an AI?
-# Your answer:
+# Your answer:prompt_b is better because it is more structured with clear instructions.
 
 # Q8b: Give TWO reasons to support your choice.
-# Your answer (Reason 1):
-# Your answer (Reason 2):
+# Your answer (Reason 1): Uses clear headings like "Role" and "Task" for the AI to parse the request.
+# Your answer (Reason 2): 'Role' of AI is explicitly stated.  
 
 # Q8c: What is ONE strength of the prompt you did NOT choose?
-# Your answer:
+# Your answer: Describes the data available
 
 
 # Task 2
 # Rewrite either prompt by borrowing ONE element from the other
 # to make it stronger. Explain what you borrowed and why.
 # Your answer:
+Role: You are a data analyst helping a retail marketing team.
+
+I am a marketing manager at a retail company and we have just finished
+a three-month campaign. My team has collected customer feedback through
+an online survey and we now have about 500 responses stored in a
+spreadsheet. Each response includes the customer's age group, the
+product they purchased, their satisfaction rating from 1 to 5, and a
+short written comment. I need to present the findings to our CEO next
+Friday in a way that is easy to understand. Can you analyse this data
+for me, highlight which age groups and products have the lowest
+satisfaction scores, identify the most common complaints from the
+written comments, and summarise everything in a short paragraph I can
+use as an executive summary?
+
+I rewrote prompt_a by stating the 'role' of AI clearly. 
